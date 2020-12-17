@@ -3,7 +3,7 @@
     $nome = $_POST['nome'];
     $matricula = $_POST['matricula'];
 
-    $sql = "insert into funcionario(nome, matricula) values('$nome', '$matricula')";
+    $sql = "insert into funcionarios(nome, matricula) values('$nome', '$matricula')";
     $insert = mysqli_query($link, $sql);
 
     if ($insert) {
